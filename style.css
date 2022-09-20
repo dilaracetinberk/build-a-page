@@ -1,0 +1,83 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+h5{
+  font-family: 'Montserrat', sans-serif;
+  display:flex;
+  justify-content: center;
+}
+h1{
+  font-family: 'Montserrat', sans-serif;
+  display:flex;
+  justify-content: center;
+}
+img{
+  width:300px;
+  
+}
+.main{
+  background-color: #efebeb;
+  
+}
+.container{
+  
+  display:grid;
+  justify-content: center;
+  gap: 30px;
+  grid-template-columns: 300px 300px;
+  grid-template-rows: 400px 400px 400px;
+  grid-template-areas: 
+    "img paragraph"
+    "paragraph2 img2"
+   "img3 paragraph3";
+}
+.img-1{
+  grid-area:img;
+}
+.img-2{
+  grid-area:img2;
+}
+.img-3{
+  grid-area:img3;
+}
+.p1{
+  grid-area: paragraph;
+}
+.p2{
+  grid-area: paragraph2;
+}
+.p3{
+  grid-area: paragraph3;
+}
+.adv{
+  display:grid;
+  justify-content: center;
+}
+.p4{
+  font-size: 30px;
+}
+.p5{
+  font-size: 15px;
+}
+#contact{
+  background-color: #a2e2cf;
+ display: flex;
+flex-direction: column;
+
+  height: 400px;
+}
+footer{
+  display: flex;
+  justify-content: center;
+  background-color: #efebeb;
+  height: 250px;
+}
+span{
+  text-decoration: underline;
+}
+footer p{
+  display:flex;
+  justify-content: center;
+}
+  
